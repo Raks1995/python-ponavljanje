@@ -9,13 +9,13 @@ if d == p and r1 == r2:
     print(x)
 elif d == p and r1 == "-" and r2 == "+":
     print(x)
-elif d == "0" and p == "b" or p == "a" or p == "ab" and r1 == r2:
+elif d == "0" and p == "a" or p == "b" or p == "c" and r1 == r2:
     print(x)
-elif d == "0" and p == "b" or p == "a" or p == "ab" and r1 == "-" and r2 == "+":
+elif d == "0" and p == "a" or p == "b" or p == "c" and r1 == "-" and r2 == "+":
     print(x)
-elif p == "ab" and d == "a" or d == "b" and r1 == r2:
+elif p == "c" and d == "a" or d == "b" and r1 == r2:
     print(x)
-elif p == "ab" and d == "a" or d == "b" and r1 == "-" and r2 == "+":
+elif p == "c" and d == "a" or d == "b" and r1 == "-" and r2 == "+":
     print(x)
 else:
     print(y)
